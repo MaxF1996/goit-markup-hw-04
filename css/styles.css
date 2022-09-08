@@ -42,6 +42,7 @@ ul {
 
 ul {
   padding-left: 0;
+  line-height: 0;
 }
 
 button {
@@ -162,6 +163,24 @@ nav.flex-container {
 
 .header .nav-contact {
   color: inherit;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  fill: var(--main-font-color);
+}
+
+.contact-icon {
+}
+
+.icon-envelope,
+.icon-envelope use {
+  width: 16px;
+  height: 12px;
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
 }
 
 .header .active-link,
@@ -170,6 +189,7 @@ nav.flex-container {
 .header .nav-link:focus,
 .header .nav-contact:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* Хіро */
