@@ -42,7 +42,6 @@ ul {
 
 ul {
   padding-left: 0;
-  line-height: 0;
 }
 
 button {
@@ -63,10 +62,10 @@ main img {
   padding-right: 15px;
 }
 
-.container.big-container {
+/* .container.big-container {
   max-width: 1600px;
   padding: 0;
-}
+} */
 
 .section {
   padding-top: 94px;
@@ -141,14 +140,14 @@ nav.flex-container {
 
 .header .nav-link,
 .header .nav-contact {
-  display: block;
-
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .header .nav-link {
+  display: block;
+
   padding-top: 32px;
   padding-bottom: 31px;
 
@@ -169,11 +168,7 @@ nav.flex-container {
   fill: var(--main-font-color);
 }
 
-.contact-icon {
-}
-
-.icon-envelope,
-.icon-envelope use {
+.icon-envelope {
   width: 16px;
   height: 12px;
 }
@@ -198,7 +193,13 @@ nav.flex-container {
   padding-top: 200px;
   padding-bottom: 200px;
 
-  background-color: var(--main-dark-color);
+  max-width: 1600px;
+  margin: 0 auto;
+
+  background-image: url(../images/hero-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero .hero-title {
@@ -239,7 +240,7 @@ nav.flex-container {
 
 .hero-button:hover,
 .hero-button:focus {
-  opacity: 0.75;
+  opacity: 0.95;
 }
 
 /* Переваги */
