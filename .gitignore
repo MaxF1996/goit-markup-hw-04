@@ -1,6 +1,9 @@
 # Images original (without optimization)
 images-orig
 
+# Alternative svg sprite
+images/icons-alt.svg
+
 # Testing styles
 css/mstyles.css
 
