@@ -252,6 +252,10 @@ nav.flex-container {
 
 /* Переваги */
 
+.benefits.section {
+  padding-bottom: calc(94px / 2);
+}
+
 .benefits-list.flex-container {
   display: flex;
   gap: 30px;
@@ -300,7 +304,7 @@ nav.flex-container {
 }
 
 .doing.section {
-  padding-top: 0;
+  padding-top: calc(94px / 2);
 }
 
 .doing .doing-list {
