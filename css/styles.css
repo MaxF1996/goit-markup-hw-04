@@ -113,9 +113,14 @@ main img {
 
 .unvisible {
   position: absolute;
-  clip: rect(0 0 0 0);
+  white-space: nowrap;
   width: 1px;
   height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -202,6 +207,9 @@ nav.flex-container {
   max-width: 1600px;
   margin: 0 auto;
 
+  padding-left: 15px;
+  padding-right: 15px;
+
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-min.jpg);
   background-size: cover;
@@ -213,8 +221,6 @@ nav.flex-container {
   max-width: 730px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 
   font-weight: 900;
   font-size: 44px;
