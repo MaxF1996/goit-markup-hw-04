@@ -176,7 +176,7 @@ nav.flex-container {
   display: flex;
   column-gap: 10px;
   align-items: center;
-  fill: var(--main-font-color);
+  fill: currentColor;
 }
 
 .icon-envelope {
@@ -195,7 +195,7 @@ nav.flex-container {
 .header .nav-link:focus,
 .header .nav-contact:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* Хіро */
@@ -378,6 +378,8 @@ nav.flex-container {
 
   gap: 10px;
 
+  color: var(--brand-main-color);
+
   margin-top: 16px;
 }
 
@@ -386,8 +388,9 @@ nav.flex-container {
   padding: 12px;
 
   height: 44px;
+  color: inherit;
 
-  fill: var(--brand-main-color);
+  fill: currentColor;
   border-radius: 50%;
 }
 
@@ -641,11 +644,13 @@ nav.flex-container {
 
   gap: 10px;
 
+  color: var(--main-light-color);
+
   margin-top: 20px;
 }
 
 .footer-socials .social-link {
-  fill: var(--main-light-color);
+  fill: currentColor;
   background-color: var(--footer-media-bg-color);
 }
 
